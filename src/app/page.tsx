@@ -231,6 +231,82 @@ export default function Home() {
           </div>
         </div>
 
+        {/* FAQ SECTION */}
+<section id="faq" className="mx-auto max-w-6xl px-6 py-16">
+  <h2 className="text-3xl font-semibold tracking-tight text-center">
+    Frequently Asked Questions
+  </h2>
+
+  <div className="mt-10 space-y-6">
+    <div className="rounded-2xl border border-zinc-200 bg-white p-6">
+      <h3 className="font-semibold">Is BioFused really edible?</h3>
+      <p className="mt-2 text-zinc-700">
+        Our material is being developed with food-safe certification in mind.
+        Final edibility depends on the certified formulation.
+      </p>
+    </div>
+
+    <div className="rounded-2xl border border-zinc-200 bg-white p-6">
+      <h3 className="font-semibold">How is it different from biodegradable plastics?</h3>
+      <p className="mt-2 text-zinc-700">
+        BioFused focuses on true end-of-life simplicity — aiming for compostability
+        and eliminating long-term environmental persistence.
+      </p>
+    </div>
+
+    <div className="rounded-2xl border border-zinc-200 bg-white p-6">
+      <h3 className="font-semibold">Who is it for?</h3>
+      <p className="mt-2 text-zinc-700">
+        Food packaging companies, catering businesses, event organizers,
+        and environmentally conscious brands.
+      </p>
+    </div>
+
+    <div className="rounded-2xl border border-zinc-200 bg-white p-6">
+      <h3 className="font-semibold">When will it be available?</h3>
+      <p className="mt-2 text-zinc-700">
+        We are currently in development and pilot preparation phase.
+        Join the waitlist to stay updated.
+      </p>
+    </div>
+  </div>
+</section>
+        {/* CONTACT SECTION */}
+<section id="contact" className="bg-emerald-50 py-16">
+  <div className="mx-auto max-w-6xl px-6 text-center">
+    <h2 className="text-3xl font-semibold tracking-tight">
+      Contact BioFused
+    </h2>
+
+    <p className="mt-4 text-zinc-700">
+      Interested in partnerships, pilot programs, or investment?
+      Reach out to us.
+    </p>
+
+    <div className="mt-8 space-y-3">
+      <p>
+        📩 Email:{" "}
+        <a
+          href="mailto:contact@biofused.com"
+          className="text-emerald-700 font-medium hover:underline"
+        >
+          contact@biofused.com
+        </a>
+      </p>
+
+      <p>
+        📷 Instagram:{" "}
+        <a
+          href="https://instagram.com/biofused"
+          target="_blank"
+          className="text-emerald-700 font-medium hover:underline"
+        >
+          @biofused
+        </a>
+      </p>
+    </div>
+  </div>
+</section>
         <footer className="mt-10 text-center text-sm text-zinc-500">
           © {new Date().getFullYear()} BioFused. All rights reserved.
         </footer>
