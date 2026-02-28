@@ -287,7 +287,7 @@ export default function Home() {
       <p>
         📩 Email:{" "}
         <a
-          href="mailto:contact@biofused.com"
+          href="mailto:contact.biofused@gmail.com"
           className="text-emerald-700 font-medium hover:underline"
         >
           contact@biofused.com
